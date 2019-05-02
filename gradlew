@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-yes | $ANDROID_HOME/tools/bin/sdkmanager "build-tools;28.0.3"
+yes | $ANDROID_HOME\\tools\\bin\\sdkmanager.bat "build-tools;28.0.3"
+yes | $ANDROID_HOME\\tools\\bin\\sdkmanager.bat "platforms;android-28"
 
 ##############################################################################
 ##
