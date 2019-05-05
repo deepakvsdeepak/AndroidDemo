@@ -25,7 +25,7 @@ jobs:
           command: ./gradlew lint test
       - run:
           name: Instrumented Tests
-          command: ./gradlew connectedAndroidTest
+          command: ./gradlew connectedDebugAndroidTest
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: app/build/reports
           destination: reports
